@@ -6,7 +6,6 @@ This is a production-grade retail application with a microservices architecture,
 ## Technology Stack
 
 ### Backend
-### Backend
 - **Framework**: Python FastAPI 0.110.0+
 - **Database**: PostgreSQL 18.1+
 - **ORM**: SQLAlchemy 2.0.45+ with Alembic 1.13.3 for migrations
@@ -15,14 +14,12 @@ This is a production-grade retail application with a microservices architecture,
 - **Validation**: Pydantic v2.12.5 models
 
 ### Frontend
-### Frontend
 - **Framework**: Next.js 14.x (App Router)
 - **Styling**: Tailwind CSS 3.4.x
 - **State Management**: React Context API / Zustand for complex state
 - **API Client**: Axios with interceptors for auth
 - **UI Components**: shadcn/ui or custom components with Tailwind
 
-### Testing
 ### Testing
 - **Backend Testing**: pytest with pytest-asyncio, pytest-cov (>80% coverage)
 - **Frontend Testing**: Jest 29.x + React Testing Library
@@ -31,7 +28,6 @@ This is a production-grade retail application with a microservices architecture,
 - **Load Testing**: Locust or k6
 
 ### Infrastructure & DevOps
-### Infrastructure & DevOps
 - **Containerization**: Docker 25.x with multi-stage builds
 - **Orchestration**: Docker Compose for local, production-ready Dockerfiles
 - **IaC**: Terraform 1.8.x for AWS infrastructure provisioning
@@ -39,7 +35,6 @@ This is a production-grade retail application with a microservices architecture,
 - **CI/CD**: GitHub Actions with environment-specific workflows
 - **Secrets Management**: AWS Secrets Manager / GitHub Secrets
 
-### Monitoring & Observability
 ### Monitoring & Observability
 - **Metrics**: Prometheus 3.8.1 with custom application metrics
 - **Visualization**: Grafana 12.3.1 dashboards for business and technical metrics
