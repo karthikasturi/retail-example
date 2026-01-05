@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Test and coverage outputs
+.coverage
+coverage.xml
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Docker
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore local env files
+.env
+.env.*
