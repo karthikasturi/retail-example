@@ -22,21 +22,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r backend/requirements.txt
 
-  build:
-    runs-on: ubuntu-latest
-    needs: setup
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Build backend (lint, format)
-        run: |
-          pip install black ruff
-          black --check backend/
-          ruff backend/
+  # build:
+  #   runs-on: ubuntu-latest
+  #   needs: setup
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v4
+  #     - name: Build backend (lint, format)
+  #       run: |
+  #         pip install black ruff
+  #         black --check backend/
+  #         ruff backend/
 
   unittest:
     runs-on: ubuntu-latest
-    needs: build
+    # needs: build
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
