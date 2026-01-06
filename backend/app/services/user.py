@@ -1,7 +1,7 @@
 from passlib.context import CryptContext
 from sqlalchemy.exc import IntegrityError
-from app.repositories.user import UserRepository
-from app.schemas.user import UserCreate, UserOut
+from backend.app.repositories.user import UserRepository
+from backend.app.schemas.user import UserCreate, UserOut
 from sqlalchemy.ext.asyncio import AsyncSession
 from fastapi import HTTPException, status
 

@@ -1,7 +1,7 @@
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
-from app.models.user import User
-from app.schemas.user import UserCreate
+from backend.app.models.user import User
+from backend.app.schemas.user import UserCreate
 from sqlalchemy.exc import IntegrityError
 
 class UserRepository:
